@@ -70,8 +70,8 @@ e-mail: [esamidistato.lauream@unipd.it](esamidistato.lauream@unipd.it)
 
 ## Argomenti Informatica
 
-- [ ] **Basi di dati:** Progettazione database, Query SQL, ~~Scelta DBMS~~, ~~schema ER e normalizzazione alla 3NF~~, Schema Logico, Vincoli sui dati aggiuntivi, albero di navigazione funzionale, architettura hardware per il deploy di una piattaforma web, costi di realizzazione, numero e configurazione dei server utilizzati, implementazione in JAVa di una classe che implementi, concorrenza negli accessi a una base di dati, client-server, schema UML, modelli di database e principali tecniche di progettazione, strutture dati per l'indicizzazione delle informazioni nel database, model-view-controller, casi d'uso con UML, virtualizzazione e architettura relativa 
-- [ ] **Dati e Algoritmi** FFT, trasformata di un segnale, apllicazioni, Divide & Conquer, Dynamic Programming, Greedy, albero binario, albero binario bilanciato, indice di albero binario (vantaggi/svantaggi), progettazione di algoritmi e valutazione dei costi computazionali, mergesort, selectionsort, insertionsort, grafi, grafo connesso, albero di copertura, aspetti pratici, algoritmo efficiente per stabilire se un grafo è connesso, algoritmo di Dijkstra per i cammini minimi, algoritmi ricorsivi, problemi difficile NP, NP-HArd, NP completi
+- [ ] **Basi di dati:** Progettazione database, Query SQL, ~~Scelta DBMS~~, ~~schema ER e normalizzazione alla 3NF~~, Schema Logico, ~~Vincoli sui dati aggiuntivi~~, albero di navigazione funzionale, architettura hardware per il deploy di una piattaforma web, costi di realizzazione, numero e configurazione dei server utilizzati, implementazione in JAVa di una classe che implementi, concorrenza negli accessi a una base di dati, client-server, ~~schema UML~~, modelli di database e principali tecniche di progettazione, ~~strutture dati per l'indicizzazione delle informazioni nel database~~, model-view-controller, casi d'uso con UML, virtualizzazione e architettura relativa 
+- [ ] **Dati e Algoritmi** ~~FFT~~, trasformata di un segnale, applicazioni, ~~Divide & Conquer~~, ~~Dynamic Programming~~, ~~Greedy, albero binario, albero binario bilanciato, indice di albero binario (vantaggi/svantaggi), progettazione di algoritmi e valutazione dei costi computazionali, mergesort, selectionsort, insertionsort, grafi, grafo connesso, albero di copertura, aspetti pratici, algoritmo efficiente per stabilire se un grafo è connesso, algoritmo di Dijkstra per i cammini minimi, algoritmi ricorsivi, problemi difficile NP, NP-HArd, NP completi~~
 - [ ] **Sistemi Operativi:** Unix, caratteristiche del linguaggio shell, modalità di gestione dei processi (strutture dati, stati, scheduling), funzioni dei tipi di file e modalità di accesso ad essi
 - [ ] **Sicurezza informatica:** caratteristiche, tipi di attacchi, metodi per contrastarli, funzioni di hash, crittografia, uso nel DBMS
 - [ ] **Linguaggi di programmazione:** differenza tra linguaggi interpretati e quelli compilati, tecniche di linking dei moduli che compongono un programma eseguibile, linker, debugger, compilatore, pro e contro, complessità computazionale in relazione al linguaggio di programmazione
@@ -96,11 +96,15 @@ e-mail: [esamidistato.lauream@unipd.it](esamidistato.lauream@unipd.it)
 **Libro** *Basi di dati - Atzeni Ceri Fraternali - McGrawHill*:
 
 * Introduzione ai DBMS  *Cap. 1, pp. 4-6*
+    - relazione tra un DBMS e un filesystem *Cap. 11 pp. 406*
 * Data Definition Language e Data Manipulation Language *Cap. 1, pp. 10*
 * Metodologie di progetto:
     -  Ciclo di vita sistemi informativi *Cap. 6, pp. 191*
     -  Progettazione basi di dati:  *Cap. 6, pp. 194*
     -  Modello ER: *Cap. 6, pp. 198*
+*  Sistemi informativi su Web: problematiche *Cap. 18*
+*  Schema UML *Cap. 6, pp. 218*
+*  Indicizzazione *Cap. 11 pp. 416* 
 
 ## Sicurezza informatica
 
@@ -115,6 +119,35 @@ e-mail: [esamidistato.lauream@unipd.it](esamidistato.lauream@unipd.it)
 **Libro** *Cryptography for Internet Security and Database Applications - N. Galbreath - Wiley*:
 
 
+## Dati e Algoritmi
+**Libro:** *Introduction to Algorithms - [Cormen]*
+**Libro:** *Automi Linguaggi e Calcolabilità - [Motwani]*
+
+* Complessità algoritmi: *Appunti pp. 1, [Cormen] pp. 43, [Motwani] pp. 391*
+* Divide & Conquer: *Appunti pp. 4, [Cormen] pp. 65*
+* Master Theorem: *Appunti pp. 10, [Cormen] pp. 93*
+* DFT: *Appunti pp. 24, [Cormen] pp. 898*
+* Dynamic Programming: *Appunti pp. 35, [Cormen] pp. 359*
+* Greedy: *Appunti pp. 49, [Cormen] pp. 414*
+* Classi di complessità: *Appunti pp. 55, [Cormen] pp. 1048*
+* Binary search Tree: *[Cormen] pp. 286*
+* Binary Tree: *[Cormen] pp. 1177*
+* Balanced Binary Tree: *[Cormen] pp. 308*
+* Sorting: *[Cormen] pp. 147*
+* Grafi
+    - Algoritmo efficiente per stabilire se un grafo è connesso: *[Cormen] pp. 589*
+    - Albero di copertura (o spanning tree) *[Cormen] pp. 624*
+    - Dijkstra *[Cormen] pp. 658*
+
+## Sistemi Operativi
+**Libro:** *Sistemi Operativi - [Moro]*
+
+* Unix: *[Moro] pp. 349*
+    - Shell *pp. 350*
+    - scheduling *pp. 355*
+    - il modello di memoria *pp. 412*
+* Kernel sistema operativo: *[Moro] pp. 159*
+* File System: *[Moro] 313*
 
 
 
@@ -130,6 +163,38 @@ e-mail: [esamidistato.lauream@unipd.it](esamidistato.lauream@unipd.it)
 * BJT e MOSFET: vedi *Formule in schede - riassunti Elettronica Analogica* 
 * 
 
+# Note utili:
 
+Cose da considerare durante lo svolgimento dei quesiti.
 
+## Database:
+ 
+### Progettazione concettuale
 
+* **Associazioni n-arie** => devono essere *molti-a-molti*, altrimenti rappresentare con associazioni *uno-a-molti* le entità che hanno cardinalità (1,1)
+* **Identificatore esterno** di E nella relazione E -<>- F => E partecipa con cardinalità (1,1)
+* Le **generalizzazioni** sono sempre esclusive
+* Vincoli di integrità sui dati: 
+    - <*concetto*>  deve / non deve <*espressione sui concetti*>
+    - <*concetto*> si ottiene  <*operazione sui concetti*>
+* nell'indecisione tra un'associazione e un'entità considerare il caso seguente: 
+studente -<*esame*>- corso (in questo caso uno studente non riesce a ripere più volte lo stesso esame), **corretto:** studente -<>- esame -<>- corso
+
+### Progettazione Logica
+
+1. **Fase di ristrutturazione**
+    * Analisi delle ridondanze *pp. 282*
+    * Eliminazione delle generalizzazioni (3 alternative)
+    * Partizionamento / accorpamento di entità e associazioni
+    * Scelta degli identificatori principali
+
+2. **Traduzione verso il modello logico**
+    i. entità dotate di identificatore interno
+    ii. entità con identificatore esterno
+    iii. traduzione delle Associazioni (*vedere **tabella 8.25** pp. 303*)
+    iv. verificare che lo schema sia nella IIIa **forma normale**
+
+# Cheat sheet
+
+* Segnali e sistemi: trasformate di Fourier, Laplace, Zeta
+* 
