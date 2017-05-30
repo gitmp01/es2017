@@ -197,4 +197,8 @@ studente -<*esame*>- corso (in questo caso uno studente non riesce a ripere più
 # Cheat sheet
 
 * Segnali e sistemi: trasformate di Fourier, Laplace, Zeta
-* 
+* [UML 1](http://loufranco.com/wp-content/uploads/2012/11/cheatsheet.pdf) e [UML 2](http://www.digilife.be/quickreferences/qrc/uml%20quick%20reference%20card.pdf)
+* [Probabilità](https://static1.squarespace.com/static/54bf3241e4b0f0d81bf7ff36/t/55e9494fe4b011aed10e48e5/1441352015658/probability_cheatsheet.pdf)
+* [Matrici & simili](http://www2.imm.dtu.dk/pubdb/views/edoc_download.php/3274/pdf/imm3274.pdf)
+* [Complessità Computazionale](http://www.souravsengupta.com/cds2016/lectures/Complexity_Cheatsheet.pdf)
+* [IP / Netmask](https://www.aelius.com/njh/subnet_sheet.html)
